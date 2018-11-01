@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF=8">
+		<title>Kurs-Todo</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div id='app'>
+			<h1>Todo List</h1>
+			<div>
+	 			<button id="toggleAllButton"onclick="handlers.toggleAll()">Toggle All</button>
+			</div>
+			<div>
+				<button onclick="handlers.addTodo()">Add</button>
+				<input id="addTodoTextInput" type="text" placeholder=" add task">
+			</div>
+			<div>
+				<button onclick="handlers.changeTodo()">Change Todo</button>
+				<input id="changeTodoPositionInput" class="inputNumber" type="number" min=0>
+				<input id="changeTodoTextInput" class="inputSize" type="text">
+			</div>
+			<div>
+				<button id="toggleCompletedButton" onclick="handlers.toggleCompleted()">Toggle Completed</button>
+				<input id="toggleCompletedPositionInput" class="inputNumber" type="number" min=0>
+			</div>
+			
+			<ul>		
+			</ul>
+		</div>
+		<script type="text/javascript" src="/scripts/app.js"></script>
+		<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+		<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+	</body>
+</html>

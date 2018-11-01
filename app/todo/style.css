@@ -1,0 +1,84 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(260deg, #6A013B,#3F0827);
+    box-shadow: 0px 0px 10px #34495e;
+    color: #F27505;
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+    text-shadow: 3px 3px 8px black;
+   /* direction: rtl;*/
+}
+
+#app {
+    position: relative;
+    text-align: center;
+    margin: 0 auto; 
+    width: 50%;
+}
+
+button {
+    width: 120px;
+    height: 25px;
+    margin: 5px;
+    background: rgba(0, 0, 0, 0.4);
+    color: #F27505;
+    border: none;
+    transition-duration: 0.1s;
+}
+
+button:hover {
+    box-shadow: 0 2px 16px 0 rgba(242,117,5,0.24), 0 17px 50px 0 rgba(242,117,5,0.19);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:active {
+  box-shadow: 0 2px 16px 0 rgba(242,117,5,0.24), 0 17px 50px 0 rgba(242,117,5,0.19);
+  transform: translateY(2px);
+}
+
+input {
+    height: 25px;
+    width: 150px;
+    border: none;
+    border-radius: 5%;
+    background: rgba(0, 0, 0, 0.4);
+    color: #F27505;
+}
+
+.inputSize {
+    width: 111px
+}
+
+.inputNumber {
+    width: 35px;
+    border-radius: 8%;
+}
+
+.deleteButton {
+    width: 50px;
+    height: 20px;
+}
+
+ #deleteTodoPositionInput, #toggleComplitedPositionInput {
+    width: 50px;
+}
+
+#toggleCompletedButton {
+    margin-left: -110px;
+}
+
+#toggleAllButton {
+    margin-left: -150px;
+}
+
+ul {
+    list-style-type: none;
+    /*direction: rtl;*/
+}
