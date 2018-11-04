@@ -1,5 +1,5 @@
 {
-  "name": "gradient",
+  "name": "cv-online2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,5 +12,9 @@
   "license": "ISC",
   "devDependencies": {
     "live-server": "^1.2.0"
+  },
+  "dependencies": {
+    "live": "^0.1.25-beta.0",
+    "server": "^1.0.18"
   }
 }

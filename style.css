@@ -78,16 +78,14 @@ header img {
 }
 
 header img:hover {
-    height: 160px;
-    width: 160px;
-    top: -5px;
-    left: -5px;
-    border: solid 2px black;
-    /*-webkit-transform: scale(1.3) rotate(-10deg);
-           
-    transition: -webkit-transform 1s;
-    transition: transform 1s;
-    transition: transform 1s, -webkit-transform 1s;*/
+    transition: transform 1.5s;
+    transform: scale(1.3);
+    /*height: 160px;
+    width: 160px;*/
+   /* top: -5px;
+    left: -5px;*/
+    /*border: solid 2px black;*/
+    
 }
 
 header h2 {
@@ -184,16 +182,17 @@ h6 {
     border-radius: 50%;
 }
 
-a:hover /*.contact:hover*/ {
-    transform: rotateY(360deg) scale(1.4);
+a:hover, .contact:hover {
+    /*transform: rotateY(360deg) scale(1.4);*/
+    transform: scale(1.3);
     transition: transform 1s;
-    border: solid 0.5 #fff;
+    border: 0.5 solid #fff;
     border-radius: 50%;
     text-decoration: none;
     cursor: pointer;
 }
 
-.camera:hover {
+/*.camera:hover {
     background: red;
 }
 
@@ -212,7 +211,7 @@ a:hover /*.contact:hover*/ {
 .address-card-o:hover {
     background-color: #0ad4fc;
     cursor: pointer;
-}
+}*/
 
 .career {
     display: flex;
@@ -250,10 +249,6 @@ h4 {
     text-align: left;
     color: black;
 }
-
-/*h5 ~ ul {
-   margin-top: -20px;
-}*/
 
 ul {
     margin: 10px 0 15px 30px;
