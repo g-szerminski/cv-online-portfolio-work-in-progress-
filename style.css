@@ -32,7 +32,8 @@ body {
     display: block;
     top: 3%;
     height: auto;
-    background: linear-gradient(260deg, #e5e7e8, #6c6e70);
+    /*background: linear-gradient(260deg, #e5e7e8, #6c6e70);*/
+    ackground-color: #f4eded; 
     box-shadow: -30px 20px 20px #111010;
     border-radius: 2px;
     color: black; 
